@@ -1,0 +1,17 @@
+---
+parameters:
+  - name: cloud.region
+  - name: cloud.sshKey
+  - name: terraform.bucket.name
+  - name: terraform.bucket.region
+  - name: dns.domain
+  - name: kubernetes.eks.cluster
+  - name: cloud.vpc.worker.subnet.ids
+  - name: cloud.vpc.worker.sg.id
+  - name: cloud.iam.worker.instanceProfile
+  - name: component.k8s-worker-nodes
+    parameters:
+    - name: count
+    - name: size
+    - name: spotPrice
+    - name: poolName
