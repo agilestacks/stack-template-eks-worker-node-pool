@@ -14,4 +14,4 @@ parameters:
     - name: count
     - name: size
     - name: spotPrice
-    - name: poolName
+    - name: shortName
