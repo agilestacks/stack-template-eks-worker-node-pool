@@ -14,6 +14,6 @@ parameters:
     - name: shortName
     - name: count
     - name: instance.size
-  - name: component.k8s-worker-nodes
+  - name: component.worker-pool.aws
     parameters:
-    - name: spotPrice
+    - name: aws.spotPrice
