@@ -9,8 +9,9 @@ parameters:
   - name: cloud.vpc.worker.subnet.ids
   - name: cloud.vpc.worker.sg.id
   - name: cloud.iam.worker.instanceProfile
-  - name: component.k8s-worker-nodes
+  - name: component.worker-pool
     parameters:
-    - name: count
-    - name: size
     - name: shortName
+    - name: count
+    - name: instance.size
+    - name: aws.spotPrice
